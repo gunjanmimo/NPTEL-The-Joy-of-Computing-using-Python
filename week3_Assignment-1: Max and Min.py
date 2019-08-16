@@ -1,0 +1,5 @@
+n = list(map(int, input().split()))
+n.remove(max(n))
+n.remove(min(n))
+print(max(n), min(n))
+#print()
