@@ -1,0 +1,8 @@
+arr=[int(arr) for arr in input().split()]
+n=len(arr)
+arr1=sorted(arr)
+f=0
+for i in range(n):
+  if arr[i]==arr1[f]:
+  	f=f+1
+print(n-f,end="")
