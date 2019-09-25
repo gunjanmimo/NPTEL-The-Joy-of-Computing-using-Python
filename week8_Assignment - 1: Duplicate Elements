@@ -1,0 +1,8 @@
+s=map(int,input().split());
+d={};
+for i in s:
+  try:
+    d[i]+=1;
+  except:
+    print(i,end=' ');
+    d[i]=1;
